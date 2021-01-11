@@ -221,3 +221,23 @@ $ git commit -m "commit message..." <file>
 ```
 
 commit message最好包含date, filename, changes conclusion
+
+10. 显示history
+
+```c++
+$ git log
+```
+
+11. 显示版本索引
+
+```c++
+$ git reflog
+```
+
+12. 回退版本
+
+```c++
+$ git reset --hard <HashValue>
+```
+
+![](D:\GitHub\github_introduction\reset.png)
