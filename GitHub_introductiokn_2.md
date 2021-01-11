@@ -196,7 +196,7 @@ git rm --cached   GitHub_introductiokn_2.md 后
 $ vim <file_name>
 ```
 
-如果不能编辑，可能是文件是readonly
+按insert键编辑内容
 
 完成编辑时，先Ctrl+c, 再在底部输入以下信息即可退出vim
 
@@ -221,4 +221,3 @@ $ git commit -m "commit message..." <file>
 ```
 
 commit message最好包含date, filename, changes conclusion
-123
