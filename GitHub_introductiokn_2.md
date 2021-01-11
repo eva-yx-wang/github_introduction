@@ -157,7 +157,7 @@ config信息位置：~/.gitconfig
 $ cat .git/config
 ```
 
-5. 查看repository状态
+5. 查看working area(工作区), stage(暂存区) 状态
 
    ```c++
    $ git status
@@ -165,7 +165,7 @@ $ cat .git/config
 
 显示：Untracked files—-存在文件夹中但未被git追踪的文件，即no committed files 
 
-6. add to  stage (仅到暂存，还未commit)
+6. add to  stage (还未commit)
 
 ```c++
 $ git add file_name
@@ -212,5 +212,13 @@ $ vim <file_name>
 
 <img src="D:\GitHub\github_introduction\edittedBcommitted.png" style="zoom:50%;" />
 
-9. 把暂存区或者工作区文件commit到repository
+9. commit  files 到repository
 
+最好先add to stage 再commit ，否则一旦commit就无法撤回
+
+```c++
+$ git commit -m "commit message..." <file> 
+```
+
+commit message最好包含date, filename, changes conclusion
+123
